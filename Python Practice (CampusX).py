@@ -3,7 +3,7 @@
 
 # Solution1:
 
-# In[1]:
+# In[ ]:
 
 
 # Take input from the user
@@ -24,7 +24,7 @@ print("The oldest age is:", oldest)
 
 # solution2:
 
-# In[5]:
+# In[ ]:
 
 
 #let C be celcius
@@ -35,7 +35,7 @@ print(F, 'F')
 
 # solution3:
 
-# In[11]:
+# In[ ]:
 
 
 x = int(input('Enter first no.: '))
@@ -44,7 +44,9 @@ y = int(input('Enter second no.: '))
 print(y, x)
 
 
-# In[19]:
+# solution4:
+
+# In[ ]:
 
 
 a = int(input('1st digit: '))
@@ -52,6 +54,24 @@ b = int(input('2nd digit: '))
 c = int(input('3rd digit: '))
 
 print('sum of three digits is ', a+b+c)
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:
