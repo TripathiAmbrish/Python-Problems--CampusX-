@@ -99,16 +99,21 @@ else:
     print(year, ' not a leap year.')
 
 
-# In[ ]:
+# solution8:
+
+# In[8]:
 
 
+import math
 
+x = int(input("Enter x: "))
+y = int(input("Enter y: "))
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
 
-
-# In[ ]:
-
-
-
+euc_dis = math.sqrt((x - a)**2 + (y - b)**2)
+euc_dis = round(euc_dis,2)
+print("Euclidean distance is ",euc_dis)
 
 
 # In[ ]:
