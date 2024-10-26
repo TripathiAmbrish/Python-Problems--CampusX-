@@ -116,6 +116,51 @@ euc_dis = round(euc_dis,2)
 print("Euclidean distance is ",euc_dis)
 
 
+# solution9:
+
+# In[1]:
+
+
+#angles
+a = int(input("Enter the angle: "))
+b = int(input("Enter the angle: "))
+c = int(input("Enter the angle: "))
+
+if a+b+c == 180:
+    print("abc is a triangle")
+else:
+    print("abc is not a triangle")
+
+
+# In[4]:
+
+
+s_p = int(input("Enter the selling price: "))
+c_p = int(input("Enter the cost price: "))
+
+if s_p - c_p > s_p:
+    print("Profit of ",s_p-c_p)
+else:
+        print("Loss of",abs(s_p-c_p))
+
+
+# In[6]:
+
+
+P = int(input("Enter Principle: "))
+R = int(input("Enter Rate of interest: "))
+T = int(input("Enter time: "))
+
+SI = round(P*R*T/100,2)
+print(SI)
+
+
+# In[ ]:
+
+
+
+
+
 # In[ ]:
 
 
