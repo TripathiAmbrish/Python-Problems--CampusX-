@@ -132,6 +132,8 @@ else:
     print("abc is not a triangle")
 
 
+# solution10
+
 # In[4]:
 
 
@@ -144,6 +146,8 @@ else:
         print("Loss of",abs(s_p-c_p))
 
 
+# solution11
+
 # In[6]:
 
 
@@ -153,6 +157,29 @@ T = int(input("Enter time: "))
 
 SI = round(P*R*T/100,2)
 print(SI)
+
+
+# solution12
+
+# In[4]:
+
+
+r = float(input("Enter the radius (in cm): "))
+l = float(input("Enter the length (in cm): "))
+
+volume = round(3.412*(r**2)*l,2)
+cyl_cap = round(volume/1000,2)
+cost = 40*cyl_cap
+
+print("volume is",volume)
+print("cylinder capacity is",cyl_cap)
+print("cost is",cost)
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:
