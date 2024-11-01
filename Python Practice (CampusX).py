@@ -176,9 +176,36 @@ print("cylinder capacity is",cyl_cap)
 print("cost is",cost)
 
 
-# In[ ]:
+# In[3]:
 
 
+num = int(input("Enter a number: "))
+sum_num = sum(int(digit) for digit in str(num))  # Convert num to string to iterate over digits
+
+if sum_num % 3 == 0 and sum_num % 6 == 0:
+    print("The sum of digits is divisible by both 3 and 6.")
+else:
+    print("The sum of digits is not divisible by both 3 and 6.")
+
+
+# solution16:
+
+# In[9]:
+
+
+temp = int(input("Enter the temperature: "))
+humid = int(input("Enter the humidity: "))
+
+if temp >= 3 and humid >= 90:
+    print("Weather: Hot and Humid")
+elif temp >+ 30 and humid < 90:
+        print("Weather: Hot")
+elif temp >+ 30 and humid < 90:
+        print("Weather: Hot")
+elif temp < 30 and humid >= 90:
+        print("Weather: Cool and Humid")
+else:
+    print("Weather: Cool")
 
 
 
