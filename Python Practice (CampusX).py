@@ -209,6 +209,30 @@ else:
 
 
 
+# solution17:
+
+# In[1]:
+
+
+num = int(input("Enter a number:"))
+
+a = num % 10
+num = num // 10
+b = num % 10
+c = num // 10
+
+sum = a**2 + b**2 + c**2
+print(sum)
+
+
+# 
+
+# In[ ]:
+
+
+
+
+
 # In[ ]:
 
 
